@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.6.1">
+  <diagram name="Page-1" id="afSiyYCjNXScua79Hqv6">
+    <mxGraphModel dx="546" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JbVIV3kqpWx7civv1L7M-22" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="JbVIV3kqpWx7civv1L7M-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="400" as="sourcePoint" />
+            <mxPoint x="610" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-23" connectable="0" parent="JbVIV3kqpWx7civv1L7M-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Target Location" vertex="1">
+          <mxGeometry relative="1" x="0.0036" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ground Control Station (GCS)&lt;br&gt;&lt;br&gt;• Laptop / Mission Control Software&lt;br&gt;• Telemetry Receiver&lt;br&gt;• Live Video Display" vertex="1">
+          <mxGeometry height="110" width="280" x="280" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span&gt;Scout Drone&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;• Camera&lt;/span&gt;&lt;br&gt;&lt;span&gt;• Onboard Computer&lt;/span&gt;&lt;br&gt;&lt;span&gt;• GPS Module&lt;/span&gt;&lt;br&gt;&lt;span&gt;• Flight Controller&lt;/span&gt;&lt;br&gt;&lt;span&gt;• Telemetry Module&lt;/span&gt;&lt;br&gt;&lt;span&gt;• Speaker&lt;/span&gt;" vertex="1">
+          <mxGeometry height="190" width="120" x="200" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Delivery Drone&lt;br&gt;&lt;br&gt;• GPS Module&lt;br&gt;• Flight Controller&lt;br&gt;• Telemetry Module&lt;br&gt;&lt;div&gt;• Payload Release System&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="120" x="520" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-17" edge="1" parent="1" source="JbVIV3kqpWx7civv1L7M-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.146;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="JbVIV3kqpWx7civv1L7M-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-19" connectable="0" parent="JbVIV3kqpWx7civv1L7M-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;div&gt;Video Feed +&lt;/div&gt;&lt;div&gt;&amp;nbsp;GPS Coordinates&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0579" y="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-18" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.868;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="520" as="sourcePoint" />
+            <mxPoint x="493.03999999999996" y="440.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-20" connectable="0" parent="JbVIV3kqpWx7civv1L7M-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Telemetry / Status" vertex="1">
+          <mxGeometry relative="1" x="-0.0987" y="-1" as="geometry">
+            <mxPoint x="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JbVIV3kqpWx7civv1L7M-24" edge="1" parent="1" source="JbVIV3kqpWx7civv1L7M-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.167;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="JbVIV3kqpWx7civv1L7M-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vBHxlua5YineOmAaI6ZR-1" connectable="0" parent="JbVIV3kqpWx7civv1L7M-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;div&gt;Mission&amp;nbsp;&lt;/div&gt;&lt;div&gt;Commands&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0558" as="geometry">
+            <mxPoint x="-12" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
